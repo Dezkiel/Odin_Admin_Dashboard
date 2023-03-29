@@ -136,7 +136,7 @@ button:hover
 	border-radius: 10px;
 	display: grid;
 	grid-template-columns: 10px 1fr;
-	grid-template-rows: 3fr 1fr;
+	grid-template-rows: 5fr 1fr;
 }
 .project-content
 {
@@ -150,6 +150,15 @@ button:hover
 	border-bottom-left-radius: 10px;
 	grid-row-start: 1;
 	grid-row-end: 3;
+}
+.projects-icons
+{
+    justify-self: end;
+}
+.project-icon
+{
+    height: 25px;
+    width: auto;
 }
 .news-section
 {
