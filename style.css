@@ -136,7 +136,7 @@ button:hover
 	border-radius: 10px;
 	display: grid;
 	grid-template-columns: 10px 1fr;
-	grid-template-rows: 5fr 1fr;
+	grid-template-rows: 5fr 50px;
 }
 .project-content
 {
@@ -193,4 +193,19 @@ button:hover
 	border-radius: 10px;
 	background-color: #f1f5f9;
 	margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trending-content
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.trending-icon
+{
+    height: 60px;
+    width: auto;
+    padding-left: 10px;
 }
